@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Consumer Application")
+	fmt.Println("Consumer Application Dias")
 	conn, err := amqp.Dial("amqp://guest:guest@localhost:5672/")
 	if err != nil {
 		fmt.Println(err)
